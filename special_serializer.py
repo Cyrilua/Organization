@@ -1,4 +1,4 @@
-from EmployeeDATA import EmployeeDATA
+from employee_data import EmployeeDATA
 
 
 class SpecialSerializer:

@@ -1,4 +1,5 @@
-from EmployeeDATA import EmployeeDATA
+# coding: utf8
+from employee_data import EmployeeDATA
 
 
 class Organization:
@@ -98,6 +99,7 @@ class Organization:
             print('Такого сотрудника не найдено.')
 
     def change_employee(self):
+        print('ИЗМЕНЕНИЕ ДАННЫХ')
         organization = self.dict
         print('Введите фамилию, имя, отчество сотрудника через пробелы:')
 
@@ -133,4 +135,3 @@ class Organization:
         for name in organization.keys():
             for empl in organization[name]:
                 self.print_employee_data(empl)
-
